@@ -1,6 +1,13 @@
 html, body {
-    background-color: lightgrey;
+    background-color: white;
 }
-.div {
-    background-color: lightgrey;
+
+#search-bar{
+    border: 2px solid grey;
+    border-radius: 25px;
+    background-color: white;
+    width: 7%;
+    padding-left: 2px;
 }
+
+
