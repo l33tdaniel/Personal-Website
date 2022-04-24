@@ -1,14 +1,12 @@
-var http = require('http'),
-    fs = require('fs');
+const express = require("express");
+const app = express();
 
+app.listen(3000, () => {
+  console.log("Application started and Listening on port 3000");
+});
 
-fs.readFile('./index.html', function (err, html) {
-    if (err) {
-        throw err; 
-    }       
-    http.createServer(function(request, response) {  
-        response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
-        response.end();  
-    }).listen(6969);
+app.use(express.static(__dirname));
+
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
