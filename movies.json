@@ -12,5 +12,47 @@
         "main-character": "Spongebob",
         "IMBD Score": "2",
         "Rotton Tomatoes Score": "42"
+    },
+    {
+        "name": "The Gentleman",
+        "release date": "2015",
+        "main-character": "Mickey",
+        "IMBD Score": "8.7",
+        "Rotton Tomatoes Score": "92"
+    },
+    {
+        "name": "End Game",
+        "release date": "2019",
+        "main-character": "Thanos",
+        "IMBD Score": "10",
+        "Rotton Tomatoes Score": "100"
+    },
+    {
+        "name": "The OmniLiberal Nation",
+        "release date": "2020",
+        "main-character": "Steven Kenneth Bonnell II",
+        "IMBD Score": "11",
+        "Rotton Tomatoes Score": "1000"
+    },
+    {
+        "name": "Cars",
+        "release date": "2004",
+        "main-character": "Lightning McQueen",
+        "IMBD Score": "7",
+        "Rotton Tomatoes Score": "88"
+    },
+    {
+        "name": "Ghostbusters",
+        "release date": "1987",
+        "main-character": "GiantWhitePuffDude",
+        "IMBD Score": "7.4",
+        "Rotton Tomatoes Score": "82"
+    },
+    {
+        "name": "Interstellar",
+        "release date": "2015",
+        "main-character": "Cooper",
+        "IMBD Score": "8.2",
+        "Rotton Tomatoes Score": "92"
     }
 ]
