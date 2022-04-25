@@ -23,3 +23,8 @@ html, body {
     padding: 0px;
     border-bottom: 2px solid black;
 }
+
+#movie {
+    font-size: 1.2em;
+    color: blue;
+}
