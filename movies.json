@@ -1,18 +1,16 @@
 [
     {
-        "The Dark Knight": {
-            "name": "The Dark Knight",
-            "release date": "2007",
-            "main-character": "Bruce Wayne",
-            "IMBD Score": "9",
-            "Rotton Tomatoes Score": "99"
-        },
-        "Spongebob Movie": {
-            "name": "Spongebob Movie",
-            "release date": "2009",
-            "main-character": "Spongebob",
-            "IMBD Score": "2",
-            "Rotton Tomatoes Score": "42"
-        }
+        "name": "The Dark Knight",
+        "release date": "2007",
+        "main-character": "Bruce Wayne",
+        "IMBD Score": "9",
+        "Rotton Tomatoes Score": "99"
+    },
+    {
+        "name": "Spongebob Movie",
+        "release date": "2009",
+        "main-character": "Spongebob",
+        "IMBD Score": "2",
+        "Rotton Tomatoes Score": "42"
     }
 ]
