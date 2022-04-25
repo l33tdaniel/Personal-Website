@@ -9,10 +9,6 @@ app.listen(3000, () => {
 // the purpose of using static is so that the CSS will work - otherwise no CSS for us
 app.use(express.static(__dirname));
 
-
-
-
-
 // this is opening a path for requests and resolves for index.html
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");

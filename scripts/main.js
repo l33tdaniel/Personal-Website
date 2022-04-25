@@ -14,17 +14,3 @@ homeButton.addEventListener("click", function() {
 });
 
 // if I want to go back I just have to make one of these for each one
-
-
-
-
-
-
-
-
-
-
-
-
-
-
