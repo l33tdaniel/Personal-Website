@@ -13,14 +13,18 @@ function search_movies() {
             for(let i = 0; i < Object.keys(data).length; i++) {
                 if(data[i].name.toLowerCase().includes(fixedInput) && fixedInput != " ") {
                     console.log(data[i].name);
-                    html += "<div id='movie'> Name: " + data[i].name + 
-                            " Release Date: " + data[i]["release date"] + "</div>";
+                    html += "<div id='entire-movie'" +
+                                "<div id='movie-title'> Name: " + data[i].name + 
+                                    "<div id='ib release_date'> Release Date: " + data[i]["release date"] + 
+                                    "</div>" +
+                                "</div>" +
+                            "</div>";
                 }
                 else {
                     count++;
                     console.log("nope");
                     if(count >= Object.keys(data).length) {
-                        html += "<div> No movies are found by this title </div>";
+                        html += "<div id='no-movies'> No movies are found by this title </div>";
                     }
                 }
             }

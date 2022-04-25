@@ -13,3 +13,8 @@ app.use(express.static(__dirname));
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
+
+// this opens up any other page that doesn't work THIS MUST STAY AT THE BOTTOM!
+app.get("/:id", (req, res) =>  {
+    res.status(404).send("Page Not Found");
+});
