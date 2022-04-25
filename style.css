@@ -2,12 +2,23 @@ html, body {
     background-color: white;
 }
 
-#search-bar{
+#search-bar input{
     border: 2px solid grey;
     border-radius: 25px;
     background-color: white;
     width: 7%;
     padding-left: 2px;
+    font-size: 1.1em;
 }
 
+
+/*
+
+    border: 2px solid grey;
+    border-radius: 25px;
+    background-color: white;
+    width: 7%;
+    padding-left: 2px;*
+
+*/
 
