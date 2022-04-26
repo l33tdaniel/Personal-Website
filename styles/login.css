@@ -60,3 +60,31 @@ html, body {
     color: blue;
 }
 
+#usernameBox {
+    font-size: 1.05em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#passwordBox {
+    font-size: 1.05em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#submit_login{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#submit_password{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+
+
+
+
